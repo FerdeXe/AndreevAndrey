@@ -129,5 +129,5 @@ printButton.addEventListener('click', printPDF);
 
 //отправка на почту
 document.getElementById("message").addEventListener("click", function() {
-  alert("Message sent successfully");
-});
+        alert("Message sent successfully");
+      });
