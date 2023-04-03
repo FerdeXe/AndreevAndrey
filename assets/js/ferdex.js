@@ -128,6 +128,6 @@ var printButton = document.getElementById('printResume');
 printButton.addEventListener('click', printPDF);
 
 //отправка на почту
-document.getElementById("message").addEventListener("click", function() {
+document.getElementById("messageSentMessage").addEventListener("click", function() {
         alert("Message sent successfully");
       });

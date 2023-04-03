@@ -673,13 +673,6 @@
 	</div>
 </div>
 
-    <style>
-#messageSent {
-  display: none;
-}
-</style>
-
-<div id="messageSent">Message sent successfully</div>
 
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
