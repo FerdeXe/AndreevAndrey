@@ -1,1 +1,704 @@
 # ferdex
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Персональная страница разработчика Андреева Андрея. Посмотрите мои проекты и навыки веб-разработки.">
+<meta name="author" content="Ferdex">
+<title>Ferdex - Персональная страница разработчика | Портфолио проектов и навыки веб-разработки</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/fontello.css">
+    <!-- Bootstrap + Ferdex main styles -->
+	<link rel="stylesheet" href="assets/css/ferdex.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="https://ferdexe.github.io/blog/file" target="_blank" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i>Узнать больше</a>
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="https://t.me/privetick"><i class="icon-telegram_icon_136124" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://discordapp.com/users/372656470719856641/"><i class="icon-icons8-discord" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="mailto:andreevandreyworker@gmail.com"><i class="icon-google" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/FerdeXe"><i class="icon-github-1" aria-hidden="true"></i></a></li>
+                
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" ></h4>
+                <h1 class="header-title">Андреев Андрей</h1>
+                <h6 class="header-mono" >UX Designer | Software engineer</h6>
+                <button class="btn btn-primary btn-rounded"  onclick="window.open('https://drive.google.com/file/d/13ElZwoOa2_FFTJ985xcsi3RDYIU5P3VE/view?usp=share_link')"><i class="ti-printer pr-2"></i>Print Resume</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Резюме</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Андреев Андрей</h5>
+                        <div class="brand-subtitle">UX Designer | Software engineer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Блог</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Кто я ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">UX Designer / Software engineer из Омска</h5>
+                <p class="mt-20">Дополнительные сведения обо мне можно найти на моём блоге. </p>
+                <button class="btn btn-outline-danger" onclick="window.open('https://ferdexe.github.io/blog/file')" ><i class="icon-down-circled2 "></i>Зайти на мой блог</button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Личная информация</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>День рождения</span> : 12/05/2006</li>
+                    <li><span>Почта</span> : andreevandreyworker@gmail.com</li>
+                    <li><span>Телефон</span> : +7 901 263 06 42</li>
+                    <li><span>Дискорд</span> : Ferdex#6705 </li>
+                    <li><span>Адрес</span> :  ул. 70 лет Октября, 7, Омск</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link" href="https://t.me/privetick"><i class="icon-telegram_icon_136124" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://discordapp.com/users/372656470719856641/"><i class="icon-icons8-discord" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="mailto:andreevandreyworker@gmail.com"><i class="icon-google" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://github.com/FerdeXe"><i class="icon-github-1" aria-hidden="true"></i></a></li>
+                   
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Специализация</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+	                <div class="col-1 text-danger pt-1"><i class="icon-heart icon-lg ti-widget"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>UX Design</h6>
+                        <p class="subtitle">Пользователи скажут Вам спасибо.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="icon-4552604-globe-internet-sphere-web_121385 icon-lg ti-widget"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Web разработка</h6>
+                        <p class="subtitle">Пусть вашу компанию увидит весь мир.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="icon-gamepad icon-lg ti-widget"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Разработка на Unreal Engine 5</h6>
+                        <p class="subtitle">Станьте обладателем собственной игрушки.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">Моё</span> Резюме</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Специализация</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2023 - Настоящее время</h6>
+                            <P>Разработка на Unreal Engine 5 </P>
+                            <P class="subtitle">Unreal Engine 5 помог мне воплотить мои идеи в жизнь и создать невероятные проекты, которые я раньше даже не представлял возможными.</P>
+                            <hr>
+                            <h6 class="title text-danger">2022 - 2023</h6>
+                            <P>Web разработка</P>
+                            <P class="subtitle">За 1 год я научился создавать работать с .NET, Umbraco, поднимать сайты различной степени сложности. За 1-2 недели напишу сайт под все ваши нужды.</P>
+                            <hr>
+                            <h6 class="title text-danger">2021 - 2022</h6>
+                            <P>UX Дизайн</P>
+                            <P class="subtitle">UX дизайн - это важная часть создания любого проекта, включая игры. Я стараюсь учитывать потребности пользователей и делать интерфейс максимально интуитивно понятным.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Образование</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2023 - 2024</h6>
+                            <P>Окнчание 11 класса</P>
+                            <P class="subtitle">11 лет обучения в школе были для меня уникальным опытом, который сильно повлиял на мою жизнь. Я получил не только знания и умения, но и ценные навыки, такие как организация времени и работа в команде.</P>
+                            <hr>
+                            <h6 class="title text-danger">2022 - 2023</h6>
+                            <P>Курс «ASP.NET Core MVC, Quick and Practical»</P>
+                            <P class="subtitle">Курс «ASP.NET Core MVC, Quick and Practical» от Сепехра Эсмаэйли стал для меня окном в мир .NET. Он дал мне много практических занятий и работы с реальными примерами проектов. </P>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Навыки</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>C#</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>hTL5 &amp; CSS3</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>C++</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Языки</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Русский</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Английский</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="icon-clock ti-widget icon-xl "></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">1,5k</h1>
+                            <p class="text-light mb-1">Отработанных часов</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="icon-briefcase_icon-icons ti-widget icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">100</h1>
+                            <p class="text-light mb-1">Завершённых проектов</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class=" icon-emo-devil ti-widget icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">2к</h1>
+                            <p class="text-light mb-1">Просмотренных аниме серий</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="icon-tea_drink_icon_134139 ti-widget icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">3k</h1>
+                            <p class="text-light mb-1">Кружек чая выпито</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">Мои</span> Услуги</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="icon-4552604-globe-internet-sphere-web_121385 ti-widget text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Написание сайта</h5>
+                            <P class="subtitle">Не теряйте потенциальных клиентов из-за устаревшего или неудобного сайта. Я предлагаю услуги профессионального веб-разработчика. Легко создам для вас современный и удобный сайт, который будет привлекать новых пользователей и удерживать текущих.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="icon-4213465-computer-freelancer-internet-office-online-work-working_115434 ti-widget text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Поддержка сайта</h5>
+                            <P class="subtitle">Я уделяю особое значение поддержке ваших потребностей и всегда готов оказать помощь, когда вам это необходимо. Не важно, нужны ли вам небольшие исправления, обновления или новые функции, я буду работать вместе с вами, чтобы гарантировать, что ваш сайт работает максимально эффективно. </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="icon-bot_icon_215703 ti-widget text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Написание телеграм бота</h5>
+                            <P class="subtitle">Хотите сделать свой бизнес более эффективным и удобным для клиентов? Я, как software engineer, в силах создать для вас телеграм бота, который будет автоматизировать процессы или улучшать связь с клиентами. Оставьте все заботы о разработке на мне!</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="icon-article ti-widget text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Создание парсера</h5>
+                            <P class="subtitle">С моей услугой по разработке парсера вы сможете автоматически собирать нужную информацию с веб-сайтов. Это значительно сэкономит ваше время и гарантирует точность результатов. </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="icon-4230531-design-development-engineering_114995 ti-widget text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Создание UX дизайна</h5>
+                            <P class="subtitle">Вам нужен пользовательский интерфейс, который будет привлекать и удерживать ваших клиентов? Я помогу вам создать не только красивый UX дизайн, но и удобный в использовании. </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="icon-gamepad ti-widget text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Разработка персональной игры </h5>
+                            <P class="subtitle">Хотите создать свою игру, но не знаете, как начать? Я могу помочь вам воплотить вашу идею в реальность. Вместе мы можем создать игру вашей мечты и сделать ее доступной для всего мира. </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">Я доступен для фриланс-проектов.</h2>
+	        <button  class="btn bg-primary w-lg" onclick="window.open('https://t.me/privetick')" >Напиши мне</button>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Моё</span> Портфолио</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        Новинки
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        UX
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        UE5
+                    </a>
+                    <a href="#" data-filter=".web">
+                        Веб
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Веб</h6>
+                                    <p class="subtitle">Сайт портфолио на котором вы сейчас находитесь.</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Веб</h6>
+                                    <p class="subtitle">Один из моих последних сайтов. Он принадлежит омской кондитерской компании</p>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">UX</h6>
+                                    <p class="subtitle">UX дизайн лондонской забегаловки</p>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Веб</h6>
+                                    <p class="subtitle">Мой пилотный лэйдинговый сайт с javascript</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">UX</h6>
+                                    <p class="subtitle">UX дизайн кросовок</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Веб</h6>
+                                    <p class="subtitle">Лейндинг для минмой картинной галереи </p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="">       
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">UX</h6>
+                                    <p class="subtitle">UX дизайн для минмой горнодобывающей промышленности</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 advertising new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="">            
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">UX</h6>
+                                    <p class="subtitle">Один из моих первых UX дизайнов</p>
+                                </div>
+                            </div>
+                        </div>
+                                
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Unreal Engine 5</h6>
+                                    <p class="subtitle">Ммо рпг на UE5</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Unreal Engine 5</h6>
+                                    <p class="subtitle">Простой платформер на UE5 </p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Unreal Engine 5</h6>
+                                    <p class="subtitle">Линейная 2D игра на UE5</p>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="">                      
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Unreal Engine 5</h6>
+                                    <p class="subtitle">Прятки на острове</p>
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="">          
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Unreal Engine 5</h6>
+                                    <p class="subtitle">Мой первый платформер на UE5</p>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+     <!--End of portfolio section--> 
+
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Последние <span class="text-danger">Новости</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Nap Bot</h6>
+
+                     
+                        
+                        <p>Привет, друзья! Я хотел бы поделиться с вами историей о том, как я придумал и начал создавать "Nap Bot" - приложение, которое помогает людям установить расписание коротких дневных сновидений в течение дня.
+
+Вот как это началось: Я работаю в офисе уже несколько лет, и всегда замечал, что после обеденного перерыва мне трудно сосредоточиться на работе, и мое энергичное состояние постепенно заменяется усталостью и сонливостью. Я знал, что короткие дневные сны могут помочь мне поддерживать свою продуктивность и концентрацию, но всегда было трудно найти время и место для отдыха.
+
+Тогда я подумал, что приложение, которое помогает людям...</p>
+
+
+                        <a href="https://ferdexe.github.io/blog/file" class="read-more" target="_blank">Читать далее <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+
+                 <!--blog-card--> 
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Снова время показать свои навыки и творческий подход</h6>
+
+                     
+                        
+                        <p>Я участвовал в хакатоне с командой "Бэймакс", и мы сделали крутую штуку - приложение, которое помогает учителям понимать современные мемы. Это было очень круто, потому что нам всегда казалось, что учителя не понимают ничего из того, что мы обсуждаем в Интернете. Теперь они смогут понять, почему мы смеемся и что это за мемы. Я думаю, что наша команда справилась с заданием на отлично, и наше приложение действительно очень полезно для учителей. Мы убедились, что они теперь легко могут понимать мемы, которые раньше казались им непонятными. Наша команда сделала потрясающую работу, и мы гордимся своим достижением. Мы действительно смогли создать что-то уникальное и полезное, что будет востребовано в нашей современной культуре. Это было замечательное и вдохновляющее путешествие, и я очень благодарен всем в команде "Бэймакс" за их труд и усилия в достижении этой цели.</p>
+
+                        <a href="https://ferdexe.github.io/blog/file" class="read-more" target="_blank">Читать далее <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div> 
+                 <!--blog-card--> 
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Лучшие новички в Квин Плиз</h4>
+
+                        
+                        <p> Мне, как представителю технической сферы, было крайне волнительно принимать участие в первом раунде "Квиз, плиз!". Однако, моя команда "Прочерк" проявила отличную игровую смекалку и умение работать в команде. Я заметил, что вопросы были весьма разнообразными и захватывающими, и хотя не все из них были мне знакомы, я все же смог дать несколько правильных ответов. В общем, я остался очень довольным своим первым опытом игры в "Квиз, плиз!" и надеюсь, что в будущем смогу участвовать в еще большем количестве подобных мероприятий...</p>
+
+                        <a href="https://ferdexe.github.io/blog/file" class="read-more" target="_blank">Читать далее <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+    </section>
+    <!--map-->
+<div class="section contact" id="contact">
+	<div id="map" class="map">
+           
+
+
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="contact-form-card">
+					<h4 class="contact-title">Напишите мне</h4>
+					<form action="">
+						<div class="form-group">
+							<input  class="form-control" type="text" placeholder="Имя *" required>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="email" placeholder="Email *" required>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" id=" placeholder="Сообщение *" rows="7" required></textarea>
+						</div>
+						<div class="form-group ">
+							<button type="submit" class="form-control btn btn-primary" id="message" >Отправить сообщение</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="contact-info-card">
+					<h4 class="contact-title">Свяжитесь со мной</h4>
+					<div class="row mb-2">
+						<div class="col-1 pt-1 mr-1">
+							<i class="ti-widget icon-phone-outline icon-md"></i>
+						</div>
+						<div class="col-10 ">
+							<h6 class="d-inline">Телефон : <br> <span class="text-muted">+7 901 263 06 42</span></h6>
+						</div>
+					</div>
+					<div class="row mb-2">
+						<div class="col-1 pt-1 mr-1">
+							<i class="ti-widget icon-home-outline icon-md"></i>
+						</div>
+						<div class="col-10">
+							<h6 class="d-inline">Адрес :<br> <span class="text-muted">ул. 70 лет Октября, 7, Омск</span></h6>
+						</div>
+					</div>
+					<div class="row mb-2">
+						<div class="col-1 pt-1 mr-1">
+							<i class="ti-widget  icon-gplus icon-md"></i>
+						</div>
+						<div class="col-10">
+							<h6 class="d-inline">Email :<br> <span class="text-muted">andreevandreyworker@gmail.com</span></h6>
+						</div>
+					</div>
+					<ul class="social-icons pt-4">
+						<li class="social-item"><a class="social-link text-dark" href="https://t.me/privetick"><i class="ti-widget icon-telegram_icon_136124" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link text-dark" href="https://discordapp.com/users/372656470719856641/"><i class="ti-widget icon-icons8-discord" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link text-dark" href="mailto:andreevandreyworker@gmail.com"><i class="ti-widget icon-google" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link text-dark" href="https://github.com/FerdeXe"><i class="ti-widget icon-github" aria-hidden="true"></i></a></li>
+                            
+					</ul> 
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+    <style>
+#messageSent {
+  display: none;
+}
+</style>
+
+<div id="messageSent">Message sent successfully</div>
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+<!-- Yandex mpas -->
+
+     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=8fa94d76-ce22-4e90-8a14-e29b64cc490e"></script>
+
+    <!-- Ferdex js -->
+<script src="assets/js/ferdex.js"></script>
+<script src="assets\pdfjs\build\pd"></script>
+
+
+</body>
+</html>
