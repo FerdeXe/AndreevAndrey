@@ -128,6 +128,28 @@ var printButton = document.getElementById('printResume');
 printButton.addEventListener('click', printPDF);
 
 //отправка на почту
-document.getElementById("messageSentMessage").addEventListener("click", function() {
-        alert("Message sent successfully");
-      });
+const messageSentButton = document.getElementById('messageSentMessage');
+
+// Add a click event listener to the button
+messageSentButton.addEventListener('click', function(event) {
+  // Create a new popup element
+  const popupElement = document.createElement('div');
+  
+  // Set the content of the popup element
+  popupElement.textContent = 'Сообщение отправлено!';
+  
+  // Add the popup element to the page's DOM tree
+  document.body.appendChild(popupElement);
+  
+  // Style the popup element using CSS
+  popupElement.style.position = 'absolute';
+  popupElement.style.top = '50%';
+  popupElement.style.left = '50%';
+  popupElement.style.transform = 'translate(-50%, -50%)';
+  popupElement.style.backgroundColor = '#fff';
+  popupElement.style.padding = '1rem';
+  popupElement.style.border = '1px solid #000';
+  
+  // Prevent the default action of the button (e.g., submitting a form)
+  event.preventDefault();
+});
