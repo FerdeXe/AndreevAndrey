@@ -11731,3 +11731,11 @@ pre .code {
     transform: rotate(-15deg);
   }
 }
+
+@media (max-width: 1318px) and (min-width: 962px), (max-width: 482px) {
+  .col-1.text-danger.pt-1 i.icon-heart,
+  .col-1.text-danger.pt-1 i.icon-4552604-globe-internet-sphere-web_121385,
+  .col-1.text-danger.pt-1 i.icon-gamepad {
+    display: none;
+  }
+}
